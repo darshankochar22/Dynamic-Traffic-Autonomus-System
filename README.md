@@ -1,4 +1,4 @@
-# Dynamic-Traffic-Autonomus-System
+# Dynamic Traffic Signal Analysis using YOLO
 
 ## Overview
 This project leverages **YOLO (You Only Look Once)**, a powerful real-time object detection algorithm, to analyze traffic patterns from video input. Our algorithm processes **.mp4** files as input, detects vehicles and other objects using YOLO, and generates structured data in a **CSV file**. With this data, we aim to analyze and optimize **dynamic traffic signal timings** to improve urban traffic flow.
@@ -36,6 +36,7 @@ pip install -r requirements.txt
 │── bombay.mp4             # Sample input video
 │── detected_output.mp4    # Processed output video
 │── synthetic_detections_file_2.csv # YOLO detected output
+│── WhatsApp Image 2025-02-01 at 13.29.23.jpeg  # Reference image
 │── README.md              # This file
 ```
 
@@ -47,8 +48,8 @@ pip install -r requirements.txt
 - Accurate recognition of vehicles, pedestrians, and other objects.
 - Suitable for traffic monitoring applications where quick decisions are needed.
 
-![Traffic Analysis](WhatsApp%20Image%202024-12-11%20at%2007.44.51.jpeg)
-
+## Visualization
+![Traffic Analysis](WhatsApp%20Image%202025-02-01%20at%2013.29.23.jpeg)
 
 ## Community & Acknowledgment
 This project was made possible with the contributions of the open-source community and advancements in computer vision research. We extend our gratitude to:
