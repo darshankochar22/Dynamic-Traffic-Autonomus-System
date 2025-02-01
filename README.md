@@ -47,6 +47,9 @@ pip install -r requirements.txt
 - Accurate recognition of vehicles, pedestrians, and other objects.
 - Suitable for traffic monitoring applications where quick decisions are needed.
 
+![Traffic Analysis](WhatsApp%20Image%202024-12-11%20at%2007.44.51.jpeg)
+
+
 ## Community & Acknowledgment
 This project was made possible with the contributions of the open-source community and advancements in computer vision research. We extend our gratitude to:
 - **The YOLO Community** for open-source contributions.
